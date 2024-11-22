@@ -1,0 +1,183 @@
+/* Google Fonts URL  */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*          Utility - Class              */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.txt-center{
+    text-align: center;
+}
+.p-1{
+    padding: 1rem;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*                Body                   */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+body{
+    background-color: #f1f1f1;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*                Header                 */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+header{
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #ddd;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10%;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    color: #555;
+}
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.search-box{
+    /* border: 1px solid; */
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.search-box input{
+    padding: 15px;
+    width: 85%;
+border: 1px solid #ddd;
+    border-radius: 50px;
+    color: #555;
+    outline-color: #777;
+}
+.search-box button{
+    width: 53px;
+padding: 15px;
+border-radius: 50%;
+background-color: #777;
+color: #ddd;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all .5s ease;
+}
+
+.search-box button:hover{
+    background-color: #555;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*               User-Section            */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.user{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    height: 90vh;
+    color: #555;
+}
+.user-profile{
+    width: 48%;
+    height: 80vh;
+    padding:2rem 1rem;
+    border-radius: 5px 3rem;
+    box-shadow: 0px 3px 6px #777 ;
+    background: #fff;
+    border-right: 10px solid #777;
+    border-bottom: 5px solid #777;
+}
+.profile-img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #555;
+}
+.profile-img img{
+    border-radius: 50%;
+    width: 130px;
+}
+
+.profile-bio{
+overflow: auto;
+}
+.profile-fame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.profile-info{
+    padding: 1rem ;
+}
+.info-item{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: .5rem;
+}
+.info-item-icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.info-item-icon i{
+font-size: 22px;
+}
+.timing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.user-repos{
+    width: 48%;
+    height: 80vh;
+    padding:2rem 1rem;
+    border-radius: 5px 3rem;
+    box-shadow: 0px 3px 6px #777 ;
+    background: #fff;
+    border-right: 10px solid #777;
+    border-bottom: 5px solid #777;
+
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*                Footer                 */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+footer{
+    padding: 2rem;
+    text-align: center;
+    color: #ddd;
+    background-color: #444;
+    box-shadow: 0 2px 4px #ddd;
+
+}
+footer p{
+    font-size: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 25px;
+}
