@@ -98,6 +98,7 @@ transition: all .5s ease;
     background: #fff;
     border-right: 10px solid #777;
     border-bottom: 5px solid #777;
+    position: relative;
 }
 .profile-img{
     text-align: center;
@@ -150,7 +151,13 @@ font-size: 22px;
     align-items: center;
     padding: 1rem;
 }
-
+.loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* user repos */
 .user-repos{
     width: 48%;
     height: 80vh;
@@ -160,7 +167,42 @@ font-size: 22px;
     background: #fff;
     border-right: 10px solid #777;
     border-bottom: 5px solid #777;
+    position: relative;
 
+
+}
+.user-repos-body{
+    height: 85%;
+    overflow-y: auto;
+}
+.repository{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #777;
+}
+.repository h2{
+    text-align: center;
+    background: #555;
+    color: #ddd;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-bottom: .3rem;
+}
+ .repository p{
+    font-size: 14px;
+    padding: .2rem 0;
+    text-align: start;
+}
+
+.repo-info, .repo-timing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-repos-footer{
+    text-align: end;
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /*                Footer                 */
